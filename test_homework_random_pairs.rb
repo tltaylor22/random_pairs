@@ -12,4 +12,10 @@ class TestMMFunctions < Minitest::Test
 		assert_equal(Array, pairs.class)
 	end
 
+	def test_2_names_equals_a_pair
+		pairs = create_pairs(["Tim", "April"])
+		assert_equal(2, pairs.count)
+		print pairs
+	end	
+
 end	

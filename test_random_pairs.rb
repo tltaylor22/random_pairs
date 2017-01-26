@@ -16,7 +16,7 @@ class TestMMFunctions < Minitest::Test
 	def test_seven_into_3_pairs
 		pairs = create_pairs(['Dan', 'Marv', 'Shirley', 'April', 'Tim', 'Brian', 'Tom'])
 		assert_equal(3, pairs.count)
-		print pairs #=> [["Shirley", "Dan"], ["Brian", "Tim"], ["Marv", "Tom", ["April"]]]....
+		# print pairs #=> [["Shirley", "Dan"], ["Brian", "Tim"], ["Marv", "Tom", ["April"]]]....
 	end	
 
 	def test_eight_into_4_pairs

@@ -1,5 +1,5 @@
 def create_pairs(names)
-	array = []
+	array = [] # creates an empty array
 	array_paired_names = names.shuffle.each_slice(2)
 	array_paired_names.each do |pairs|
 
